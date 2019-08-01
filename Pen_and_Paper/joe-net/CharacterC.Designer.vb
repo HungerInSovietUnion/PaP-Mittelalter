@@ -111,24 +111,31 @@ Partial Class CharacterC
         Me.RI_Panel = New System.Windows.Forms.Panel()
         Me.RI_Echsenmensch_Panel = New System.Windows.Forms.Panel()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.RI_Nachtelf_Panel = New System.Windows.Forms.Panel()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Label52 = New System.Windows.Forms.Label()
         Me.RI_Waldelf_Panel = New System.Windows.Forms.Panel()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.RI_Goblin_Panel = New System.Windows.Forms.Panel()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.RI_Riese_Panel = New System.Windows.Forms.Panel()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.RI_Zwerg_Panel = New System.Windows.Forms.Panel()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.RI_Mensch_Panel = New System.Windows.Forms.Panel()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label55 = New System.Windows.Forms.Label()
         Me.Label54 = New System.Windows.Forms.Label()
@@ -140,13 +147,6 @@ Partial Class CharacterC
         Me.Größe_Box = New System.Windows.Forms.TextBox()
         Me.RI_Button = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.M_Menue_Panel.SuspendLayout()
         Me.Character_Skills_Panel.SuspendLayout()
         CType(Me.TB_Manipulation, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -168,18 +168,18 @@ Partial Class CharacterC
         Me.Panel1.SuspendLayout()
         Me.RI_Panel.SuspendLayout()
         Me.RI_Echsenmensch_Panel.SuspendLayout()
-        Me.RI_Nachtelf_Panel.SuspendLayout()
-        Me.RI_Waldelf_Panel.SuspendLayout()
-        Me.RI_Goblin_Panel.SuspendLayout()
-        Me.RI_Riese_Panel.SuspendLayout()
-        Me.RI_Zwerg_Panel.SuspendLayout()
-        Me.RI_Mensch_Panel.SuspendLayout()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RI_Nachtelf_Panel.SuspendLayout()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RI_Waldelf_Panel.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RI_Goblin_Panel.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RI_Riese_Panel.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RI_Zwerg_Panel.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RI_Mensch_Panel.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -306,7 +306,7 @@ Partial Class CharacterC
         'Rasse_CBox
         '
         Me.Rasse_CBox.FormattingEnabled = True
-        Me.Rasse_CBox.Items.AddRange(New Object() {"Zwerg", "Mensch", "Riese", "Goblin", "Nachtelf", "Waldelf"})
+        Me.Rasse_CBox.Items.AddRange(New Object() {"Zwerg", "Mensch", "Riese", "Goblin", "Nachtelf", "Waldelf", "Echsenmensch"})
         Me.Rasse_CBox.Location = New System.Drawing.Point(94, 189)
         Me.Rasse_CBox.Name = "Rasse_CBox"
         Me.Rasse_CBox.Size = New System.Drawing.Size(169, 21)
@@ -1073,7 +1073,7 @@ Partial Class CharacterC
         Me.Panel1.Controls.Add(Me.Character_Skills_Panel)
         Me.Panel1.Location = New System.Drawing.Point(344, 59)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1310, 627)
+        Me.Panel1.Size = New System.Drawing.Size(1349, 627)
         Me.Panel1.TabIndex = 38
         '
         'RI_Panel
@@ -1087,9 +1087,9 @@ Partial Class CharacterC
         Me.RI_Panel.Controls.Add(Me.RI_Mensch_Panel)
         Me.RI_Panel.Controls.Add(Me.Label55)
         Me.RI_Panel.Controls.Add(Me.Label54)
-        Me.RI_Panel.Location = New System.Drawing.Point(987, 162)
+        Me.RI_Panel.Location = New System.Drawing.Point(39, 89)
         Me.RI_Panel.Name = "RI_Panel"
-        Me.RI_Panel.Size = New System.Drawing.Size(205, 37)
+        Me.RI_Panel.Size = New System.Drawing.Size(1108, 470)
         Me.RI_Panel.TabIndex = 41
         '
         'RI_Echsenmensch_Panel
@@ -1111,6 +1111,14 @@ Partial Class CharacterC
         Me.TextBox7.Size = New System.Drawing.Size(252, 145)
         Me.TextBox7.TabIndex = 3
         Me.TextBox7.Text = "Geschichte, dies das"
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox7.TabIndex = 2
+        Me.PictureBox7.TabStop = False
         '
         'Label53
         '
@@ -1142,6 +1150,14 @@ Partial Class CharacterC
         Me.TextBox6.TabIndex = 3
         Me.TextBox6.Text = "Geschichte, dies das"
         '
+        'PictureBox6
+        '
+        Me.PictureBox6.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox6.TabIndex = 2
+        Me.PictureBox6.TabStop = False
+        '
         'Label52
         '
         Me.Label52.AutoSize = True
@@ -1172,6 +1188,14 @@ Partial Class CharacterC
         Me.TextBox5.TabIndex = 3
         Me.TextBox5.Text = "Geschichte, dies das"
         '
+        'PictureBox5
+        '
+        Me.PictureBox5.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox5.TabIndex = 2
+        Me.PictureBox5.TabStop = False
+        '
         'Label51
         '
         Me.Label51.AutoSize = True
@@ -1187,9 +1211,9 @@ Partial Class CharacterC
         Me.RI_Goblin_Panel.Controls.Add(Me.TextBox4)
         Me.RI_Goblin_Panel.Controls.Add(Me.PictureBox4)
         Me.RI_Goblin_Panel.Controls.Add(Me.Label42)
-        Me.RI_Goblin_Panel.Location = New System.Drawing.Point(869, 210)
+        Me.RI_Goblin_Panel.Location = New System.Drawing.Point(868, 210)
         Me.RI_Goblin_Panel.Name = "RI_Goblin_Panel"
-        Me.RI_Goblin_Panel.Size = New System.Drawing.Size(195, 33)
+        Me.RI_Goblin_Panel.Size = New System.Drawing.Size(190, 30)
         Me.RI_Goblin_Panel.TabIndex = 40
         '
         'TextBox4
@@ -1201,6 +1225,15 @@ Partial Class CharacterC
         Me.TextBox4.Size = New System.Drawing.Size(252, 145)
         Me.TextBox4.TabIndex = 3
         Me.TextBox4.Text = "Geschichte, dies das"
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_04_Goblin
+        Me.PictureBox4.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox4.TabIndex = 2
+        Me.PictureBox4.TabStop = False
         '
         'Label42
         '
@@ -1232,6 +1265,15 @@ Partial Class CharacterC
         Me.TextBox3.TabIndex = 3
         Me.TextBox3.Text = "Geschichte, dies das"
         '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_03_Riese
+        Me.PictureBox3.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox3.TabIndex = 2
+        Me.PictureBox3.TabStop = False
+        '
         'Label15
         '
         Me.Label15.AutoSize = True
@@ -1262,6 +1304,15 @@ Partial Class CharacterC
         Me.TextBox1.TabIndex = 3
         Me.TextBox1.Text = "Geschichte, dies das"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_01_Zwerg
+        Me.PictureBox1.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
+        '
         'Label9
         '
         Me.Label9.AutoSize = True
@@ -1291,6 +1342,15 @@ Partial Class CharacterC
         Me.TextBox2.Size = New System.Drawing.Size(252, 145)
         Me.TextBox2.TabIndex = 3
         Me.TextBox2.Text = "Geschichte, dies das"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_02_Mensch
+        Me.PictureBox2.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox2.TabIndex = 2
+        Me.PictureBox2.TabStop = False
         '
         'Label12
         '
@@ -1390,65 +1450,6 @@ Partial Class CharacterC
         Me.Button1.Text = "Place holder"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'PictureBox7
-        '
-        Me.PictureBox7.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox7.TabIndex = 2
-        Me.PictureBox7.TabStop = False
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox6.TabIndex = 2
-        Me.PictureBox6.TabStop = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox5.TabIndex = 2
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox4.TabIndex = 2
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_03_Riese
-        Me.PictureBox3.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox3.TabIndex = 2
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_01_Zwerg
-        Me.PictureBox1.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox1.TabIndex = 2
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_02_Mensch
-        Me.PictureBox2.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox2.TabIndex = 2
-        Me.PictureBox2.TabStop = False
-        '
         'CharacterC
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1517,24 +1518,24 @@ Partial Class CharacterC
         Me.RI_Panel.PerformLayout()
         Me.RI_Echsenmensch_Panel.ResumeLayout(False)
         Me.RI_Echsenmensch_Panel.PerformLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RI_Nachtelf_Panel.ResumeLayout(False)
         Me.RI_Nachtelf_Panel.PerformLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RI_Waldelf_Panel.ResumeLayout(False)
         Me.RI_Waldelf_Panel.PerformLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RI_Goblin_Panel.ResumeLayout(False)
         Me.RI_Goblin_Panel.PerformLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RI_Riese_Panel.ResumeLayout(False)
         Me.RI_Riese_Panel.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RI_Zwerg_Panel.ResumeLayout(False)
         Me.RI_Zwerg_Panel.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RI_Mensch_Panel.ResumeLayout(False)
         Me.RI_Mensch_Panel.PerformLayout()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
