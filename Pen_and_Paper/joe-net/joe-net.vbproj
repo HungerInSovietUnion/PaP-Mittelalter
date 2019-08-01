@@ -199,5 +199,56 @@
   <ItemGroup>
     <None Include="Resources\player_character_07_Echsenmensch.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TreeArbeitslos.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TreeBauer.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TreeFischen.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TreeHändler.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TreeMagier.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TreeWirt.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berufe_Arbeitslos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berufe_Bauer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berufe_Fischer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berufe_Händler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berufe_Handweker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berufe_Koch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berufe_Magier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berufe_Priester.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berufe_Sammler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berufe_Soldat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berufe_Wirt.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

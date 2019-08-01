@@ -354,6 +354,7 @@
         Character_Skills_Panel.Dock = DockStyle.Fill
         Life_Skills_Panel.Dock = DockStyle.None
         RI_Panel.Dock = DockStyle.None
+        Beruf_Panel.Dock = DockStyle.None
 
     End Sub
 
@@ -361,6 +362,7 @@
         Life_Skills_Panel.Dock = DockStyle.Fill
         Character_Skills_Panel.Dock = DockStyle.None
         RI_Panel.Dock = DockStyle.None
+        Beruf_Panel.Dock = DockStyle.None
     End Sub
 
 
@@ -368,11 +370,17 @@
         RI_Panel.Dock = DockStyle.Fill
         Life_Skills_Panel.Dock = DockStyle.None
         Character_Skills_Panel.Dock = DockStyle.None
-
+        Beruf_Panel.Dock = DockStyle.None
 
 
     End Sub
+    Private Sub Beruf_Button_Click(sender As Object, e As EventArgs) Handles Beruf_Button.Click
+        Beruf_Panel.Dock = DockStyle.Fill
+        RI_Panel.Dock = DockStyle.None
+        Life_Skills_Panel.Dock = DockStyle.None
+        Character_Skills_Panel.Dock = DockStyle.None
 
+    End Sub
 
     Private Sub Rasse_CBox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Rasse_CBox.SelectedIndexChanged
         If Rasse_CBox.SelectedIndex = 0 Then
@@ -443,6 +451,165 @@
             RI_Zwerg_Panel.Dock = DockStyle.None
             RI_Riese_Panel.Dock = DockStyle.None
             RI_Nachtelf_Panel.Dock = DockStyle.None
+        End If
+
+
+    End Sub
+
+    Private Sub ComboBox3_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Beruf_CBox.SelectedIndexChanged
+        If Beruf_CBox.SelectedIndex = 0 Then
+            B_Arbeitslos_Panel.Dock = DockStyle.Fill
+            B_Fischer_Panel.Dock = DockStyle.None
+            B_Bauer_Panel.Dock = DockStyle.None
+            B_Händler_Panel.Dock = DockStyle.None
+            B_Wirt_Panel.Dock = DockStyle.None
+            B_Priester_Panel.Dock = DockStyle.None
+            B_Magier_Panel.Dock = DockStyle.None
+            B_Soldat_Panel.Dock = DockStyle.None
+            B_Handwerk_Panel.Dock = DockStyle.None
+            B_Sammler_Panel.Dock = DockStyle.None
+            B_Koch_Panel.Dock = DockStyle.None
+        End If
+
+        If Beruf_CBox.SelectedIndex = 1 Then
+            B_Arbeitslos_Panel.Dock = DockStyle.None
+            B_Fischer_Panel.Dock = DockStyle.Fill
+            B_Bauer_Panel.Dock = DockStyle.None
+            B_Händler_Panel.Dock = DockStyle.None
+            B_Wirt_Panel.Dock = DockStyle.None
+            B_Priester_Panel.Dock = DockStyle.None
+            B_Magier_Panel.Dock = DockStyle.None
+            B_Soldat_Panel.Dock = DockStyle.None
+            B_Handwerk_Panel.Dock = DockStyle.None
+            B_Sammler_Panel.Dock = DockStyle.None
+            B_Koch_Panel.Dock = DockStyle.None
+        End If
+
+
+        If Beruf_CBox.SelectedIndex = 2 Then
+            B_Arbeitslos_Panel.Dock = DockStyle.None
+            B_Fischer_Panel.Dock = DockStyle.None
+            B_Bauer_Panel.Dock = DockStyle.Fill
+            B_Händler_Panel.Dock = DockStyle.None
+            B_Wirt_Panel.Dock = DockStyle.None
+            B_Priester_Panel.Dock = DockStyle.None
+            B_Magier_Panel.Dock = DockStyle.None
+            B_Soldat_Panel.Dock = DockStyle.None
+            B_Handwerk_Panel.Dock = DockStyle.None
+            B_Sammler_Panel.Dock = DockStyle.None
+            B_Koch_Panel.Dock = DockStyle.None
+        End If
+
+        If Beruf_CBox.SelectedIndex = 3 Then
+            B_Arbeitslos_Panel.Dock = DockStyle.None
+            B_Fischer_Panel.Dock = DockStyle.None
+            B_Bauer_Panel.Dock = DockStyle.None
+            B_Händler_Panel.Dock = DockStyle.Fill
+            B_Wirt_Panel.Dock = DockStyle.None
+            B_Priester_Panel.Dock = DockStyle.None
+            B_Magier_Panel.Dock = DockStyle.None
+            B_Soldat_Panel.Dock = DockStyle.None
+            B_Handwerk_Panel.Dock = DockStyle.None
+            B_Sammler_Panel.Dock = DockStyle.None
+            B_Koch_Panel.Dock = DockStyle.None
+        End If
+
+        If Beruf_CBox.SelectedIndex = 4 Then
+            B_Arbeitslos_Panel.Dock = DockStyle.None
+            B_Fischer_Panel.Dock = DockStyle.None
+            B_Bauer_Panel.Dock = DockStyle.None
+            B_Händler_Panel.Dock = DockStyle.None
+            B_Wirt_Panel.Dock = DockStyle.Fill
+            B_Priester_Panel.Dock = DockStyle.None
+            B_Magier_Panel.Dock = DockStyle.None
+            B_Soldat_Panel.Dock = DockStyle.None
+            B_Handwerk_Panel.Dock = DockStyle.None
+            B_Sammler_Panel.Dock = DockStyle.None
+            B_Koch_Panel.Dock = DockStyle.None
+        End If
+
+        If Beruf_CBox.SelectedIndex = 5 Then
+            B_Arbeitslos_Panel.Dock = DockStyle.None
+            B_Fischer_Panel.Dock = DockStyle.None
+            B_Bauer_Panel.Dock = DockStyle.None
+            B_Händler_Panel.Dock = DockStyle.None
+            B_Wirt_Panel.Dock = DockStyle.None
+            B_Priester_Panel.Dock = DockStyle.Fill
+            B_Magier_Panel.Dock = DockStyle.None
+            B_Soldat_Panel.Dock = DockStyle.None
+            B_Handwerk_Panel.Dock = DockStyle.None
+            B_Sammler_Panel.Dock = DockStyle.None
+            B_Koch_Panel.Dock = DockStyle.None
+        End If
+
+        If Beruf_CBox.SelectedIndex = 6 Then
+            B_Arbeitslos_Panel.Dock = DockStyle.None
+            B_Fischer_Panel.Dock = DockStyle.None
+            B_Bauer_Panel.Dock = DockStyle.None
+            B_Händler_Panel.Dock = DockStyle.None
+            B_Wirt_Panel.Dock = DockStyle.None
+            B_Priester_Panel.Dock = DockStyle.None
+            B_Magier_Panel.Dock = DockStyle.Fill
+            B_Soldat_Panel.Dock = DockStyle.None
+            B_Handwerk_Panel.Dock = DockStyle.None
+            B_Sammler_Panel.Dock = DockStyle.None
+            B_Koch_Panel.Dock = DockStyle.None
+        End If
+
+        If Beruf_CBox.SelectedIndex = 7 Then
+            B_Arbeitslos_Panel.Dock = DockStyle.None
+            B_Fischer_Panel.Dock = DockStyle.None
+            B_Bauer_Panel.Dock = DockStyle.None
+            B_Händler_Panel.Dock = DockStyle.None
+            B_Wirt_Panel.Dock = DockStyle.None
+            B_Priester_Panel.Dock = DockStyle.None
+            B_Magier_Panel.Dock = DockStyle.None
+            B_Soldat_Panel.Dock = DockStyle.Fill
+            B_Handwerk_Panel.Dock = DockStyle.None
+            B_Sammler_Panel.Dock = DockStyle.None
+            B_Koch_Panel.Dock = DockStyle.None
+        End If
+
+        If Beruf_CBox.SelectedIndex = 8 Then
+            B_Arbeitslos_Panel.Dock = DockStyle.None
+            B_Fischer_Panel.Dock = DockStyle.None
+            B_Bauer_Panel.Dock = DockStyle.None
+            B_Händler_Panel.Dock = DockStyle.None
+            B_Wirt_Panel.Dock = DockStyle.None
+            B_Priester_Panel.Dock = DockStyle.None
+            B_Magier_Panel.Dock = DockStyle.None
+            B_Soldat_Panel.Dock = DockStyle.None
+            B_Handwerk_Panel.Dock = DockStyle.Fill
+            B_Sammler_Panel.Dock = DockStyle.None
+            B_Koch_Panel.Dock = DockStyle.None
+        End If
+
+        If Beruf_CBox.SelectedIndex = 9 Then
+            B_Arbeitslos_Panel.Dock = DockStyle.None
+            B_Fischer_Panel.Dock = DockStyle.None
+            B_Bauer_Panel.Dock = DockStyle.None
+            B_Händler_Panel.Dock = DockStyle.None
+            B_Wirt_Panel.Dock = DockStyle.None
+            B_Priester_Panel.Dock = DockStyle.None
+            B_Magier_Panel.Dock = DockStyle.None
+            B_Soldat_Panel.Dock = DockStyle.None
+            B_Handwerk_Panel.Dock = DockStyle.None
+            B_Sammler_Panel.Dock = DockStyle.Fill
+            B_Koch_Panel.Dock = DockStyle.None
+        End If
+
+        If Beruf_CBox.SelectedIndex = 10 Then
+            B_Arbeitslos_Panel.Dock = DockStyle.None
+            B_Fischer_Panel.Dock = DockStyle.None
+            B_Bauer_Panel.Dock = DockStyle.None
+            B_Händler_Panel.Dock = DockStyle.None
+            B_Wirt_Panel.Dock = DockStyle.None
+            B_Priester_Panel.Dock = DockStyle.None
+            B_Magier_Panel.Dock = DockStyle.None
+            B_Soldat_Panel.Dock = DockStyle.None
+            B_Handwerk_Panel.Dock = DockStyle.None
+            B_Sammler_Panel.Dock = DockStyle.None
+            B_Koch_Panel.Dock = DockStyle.Fill
         End If
 
 
