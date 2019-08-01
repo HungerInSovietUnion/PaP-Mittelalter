@@ -187,5 +187,17 @@
   <ItemGroup>
     <None Include="Resources\player_character_03_Riese.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_character_04_Goblin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_character_05_Nachtelf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_character_06_Waldelf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_character_07_Echsenmensch.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

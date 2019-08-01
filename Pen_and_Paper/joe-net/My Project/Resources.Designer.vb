@@ -101,6 +101,46 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_character_04_Goblin() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_character_04_Goblin", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_character_05_Nachtelf() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_character_05_Nachtelf", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_character_06_Waldelf() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_character_06_Waldelf", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property player_character_07_Echsenmensch() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("player_character_07_Echsenmensch", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Sucht eine lokalisierte Ressource vom Typ System.Byte[].
         '''</summary>
         Friend ReadOnly Property ServerP8888() As Byte()
