@@ -117,4 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Label76.Text" xml:space="preserve">
+    <value>Pro:
++ Herstellung von Materialien / Werkzeugen / Waffen
++ Reperatur von Werkzeugen und Waffen
++ Wissen auf Verarbeitungsmaterialien
+
+Negativ:
+- Nach Reperatur müde
+- Schnelle Entwicklung von Süchten</value>
+  </data>
+  <data name="Label66.Text" xml:space="preserve">
+    <value>Pro:
++ Wilkommen bei/in Personen/Gebäuden der jeweiligen Religion
++ Eventueller Buff bei besitmmten Gegenern (z.B. Kathole stark gegen Untote)
+
+Negativ:
+- "Verhasst" bei bestimmten anderen Personen (z.B. Religiös bei Atheisten)
+- Potenziell schwach gegen andere Priester je nach spezieller Ausübung der Religion (z.B.  Astral stark gegen Nekromant)</value>
+  </data>
+  <data name="Label64.Text" xml:space="preserve">
+    <value>Pro:
++ Wissen auf Sammeln
++ Heilkunde basierend auf Pflanzenprodukte
++ Essenherstellung basierend auf Pflanzenprodukte
+
+Negativ:
+
+- Ermüdet bei Benutzung seiner Pros
+- Kann nur Pflanzenprodukte sammeln</value>
+  </data>
 </root>

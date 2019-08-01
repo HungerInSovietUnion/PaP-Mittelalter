@@ -118,31 +118,82 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="player_character_01_Zwerg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\player_character_01_Zwerg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Joe_Net_ServerH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Joe-Net-ServerH.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="player_character_02_Mensch" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\player_character_02_Mensch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TreeWirt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeWirt.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="player_character_03_Riese" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\player_character_03_Riese.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Joe_Net_ServerH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Joe-Net-ServerH.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="player_character_07_Echsenmensch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\player_character_07_Echsenmensch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ServerP8888" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ServerP8888.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="player_character_04_Goblin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\player_character_04_Goblin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="player_character_05_Nachtelf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\player_character_05_Nachtelf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="player_character_02_Mensch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\player_character_02_Mensch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="player_character_06_Waldelf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\player_character_06_Waldelf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="player_character_07_Echsenmensch" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\player_character_07_Echsenmensch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TreeBauer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeBauer.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="player_character_01_Zwerg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\player_character_01_Zwerg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreeMagier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeMagier.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreeArbeitslos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeArbeitslos.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="player_character_05_Nachtelf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\player_character_05_Nachtelf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="player_character_04_Goblin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\player_character_04_Goblin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreeFischen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeFischen.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreeHändler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeHändler.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServerP8888" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServerP8888.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Berufe_Arbeitslos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berufe_Arbeitslos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berufe_Bauer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berufe_Bauer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berufe_Fischer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berufe_Fischer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berufe_Händler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berufe_Händler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berufe_Handweker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berufe_Handweker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berufe_Koch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berufe_Koch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berufe_Magier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berufe_Magier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berufe_Priester" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berufe_Priester.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berufe_Sammler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berufe_Sammler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berufe_Soldat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berufe_Soldat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berufe_Wirt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berufe_Wirt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
