@@ -250,5 +250,20 @@
   <ItemGroup>
     <None Include="Resources\Berufe_Wirt.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TreeSammeln.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TreePriester.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TreeKoch.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TreeSoldat.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TreeHanwerker.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
