@@ -112,6 +112,12 @@
     <Compile Include="Join.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Karakter Auswahl.Designer.vb">
+      <DependentUpon>Karakter Auswahl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Karakter Auswahl.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Join.resx">
       <DependentUpon>Join.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Karakter Auswahl.resx">
+      <DependentUpon>Karakter Auswahl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

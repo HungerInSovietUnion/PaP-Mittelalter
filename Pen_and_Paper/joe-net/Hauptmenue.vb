@@ -9,6 +9,7 @@ Public Class Hauptmenue
     'Variabeln ...
     Public appData As String = GetFolderPath(SpecialFolder.ApplicationData)
     Public YourPath As String = appData + "\Joe-Apps\Profil"
+    Public YourPath2 As String = appData + "\Joe-Apps\Pen and Paper - Mittelalter\Karaktere"
     Public C_Name As String
     Public C_SN As String
 
@@ -19,6 +20,12 @@ Public Class Hauptmenue
         If (Not System.IO.Directory.Exists(YourPath)) Then
             System.IO.Directory.CreateDirectory(YourPath)
         End If
+        If (Not System.IO.Directory.Exists(YourPath2)) Then
+            System.IO.Directory.CreateDirectory(YourPath2)
+        End If
+
+
+
         'Check Porfiel data
 
         If (Not System.IO.File.Exists(YourPath + "\pro.joe")) Then
