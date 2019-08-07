@@ -43,12 +43,11 @@ Partial Class CharacterC
         Me.Statur_CBox = New System.Windows.Forms.ComboBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.FamilienStatus_CBox = New System.Windows.Forms.ComboBox()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.SozialerStatus_CBox = New System.Windows.Forms.ComboBox()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Beruf_CBox = New System.Windows.Forms.ComboBox()
         Me.Label18 = New System.Windows.Forms.Label()
@@ -109,81 +108,17 @@ Partial Class CharacterC
         Me.Label49 = New System.Windows.Forms.Label()
         Me.Label50 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.RI_Panel = New System.Windows.Forms.Panel()
-        Me.RI_Echsenmensch_Panel = New System.Windows.Forms.Panel()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.Label53 = New System.Windows.Forms.Label()
-        Me.RI_Nachtelf_Panel = New System.Windows.Forms.Panel()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Label52 = New System.Windows.Forms.Label()
-        Me.RI_Waldelf_Panel = New System.Windows.Forms.Panel()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Label51 = New System.Windows.Forms.Label()
-        Me.RI_Goblin_Panel = New System.Windows.Forms.Panel()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.RI_Riese_Panel = New System.Windows.Forms.Panel()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.RI_Zwerg_Panel = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.RI_Mensch_Panel = New System.Windows.Forms.Panel()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label55 = New System.Windows.Forms.Label()
-        Me.Label54 = New System.Windows.Forms.Label()
-        Me.Life_Skills_Button = New System.Windows.Forms.Button()
-        Me.Charakterzüge1 = New System.Windows.Forms.ComboBox()
-        Me.Charakterzüge2 = New System.Windows.Forms.ComboBox()
-        Me.Charakterzüge3 = New System.Windows.Forms.ComboBox()
-        Me.Gewicht_Box = New System.Windows.Forms.TextBox()
-        Me.Größe_Box = New System.Windows.Forms.TextBox()
-        Me.RI_Button = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Beruf_Panel = New System.Windows.Forms.Panel()
-        Me.B_Händler_Panel = New System.Windows.Forms.Panel()
-        Me.Label56 = New System.Windows.Forms.Label()
-        Me.Label57 = New System.Windows.Forms.Label()
-        Me.B_Arbeitslos_Panel = New System.Windows.Forms.Panel()
-        Me.Label58 = New System.Windows.Forms.Label()
-        Me.Label59 = New System.Windows.Forms.Label()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.B_Fischer_Panel = New System.Windows.Forms.Panel()
-        Me.Label60 = New System.Windows.Forms.Label()
-        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
-        Me.Label61 = New System.Windows.Forms.Label()
-        Me.B_Bauer_Panel = New System.Windows.Forms.Panel()
-        Me.Label62 = New System.Windows.Forms.Label()
-        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox15 = New System.Windows.Forms.PictureBox()
-        Me.Label63 = New System.Windows.Forms.Label()
-        Me.B_Sammler_Panel = New System.Windows.Forms.Panel()
-        Me.Label64 = New System.Windows.Forms.Label()
-        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
-        Me.Label65 = New System.Windows.Forms.Label()
-        Me.B_Priester_Panel = New System.Windows.Forms.Panel()
-        Me.Label66 = New System.Windows.Forms.Label()
-        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
-        Me.Label67 = New System.Windows.Forms.Label()
-        Me.B_Wirt_Panel = New System.Windows.Forms.Panel()
-        Me.Label68 = New System.Windows.Forms.Label()
-        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox21 = New System.Windows.Forms.PictureBox()
-        Me.Label69 = New System.Windows.Forms.Label()
+        Me.B_Handwerk_Panel = New System.Windows.Forms.Panel()
+        Me.Label76 = New System.Windows.Forms.Label()
+        Me.PictureBox28 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox29 = New System.Windows.Forms.PictureBox()
+        Me.Label77 = New System.Windows.Forms.Label()
+        Me.B_Soldat_Panel = New System.Windows.Forms.Panel()
+        Me.Label74 = New System.Windows.Forms.Label()
+        Me.PictureBox26 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox27 = New System.Windows.Forms.PictureBox()
+        Me.Label75 = New System.Windows.Forms.Label()
         Me.B_Magier_Panel = New System.Windows.Forms.Panel()
         Me.Label70 = New System.Windows.Forms.Label()
         Me.PictureBox22 = New System.Windows.Forms.PictureBox()
@@ -194,18 +129,83 @@ Partial Class CharacterC
         Me.PictureBox24 = New System.Windows.Forms.PictureBox()
         Me.PictureBox25 = New System.Windows.Forms.PictureBox()
         Me.Label73 = New System.Windows.Forms.Label()
-        Me.B_Soldat_Panel = New System.Windows.Forms.Panel()
-        Me.Label74 = New System.Windows.Forms.Label()
-        Me.PictureBox26 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox27 = New System.Windows.Forms.PictureBox()
-        Me.Label75 = New System.Windows.Forms.Label()
-        Me.B_Handwerk_Panel = New System.Windows.Forms.Panel()
-        Me.Label76 = New System.Windows.Forms.Label()
-        Me.PictureBox28 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox29 = New System.Windows.Forms.PictureBox()
-        Me.Label77 = New System.Windows.Forms.Label()
+        Me.B_Priester_Panel = New System.Windows.Forms.Panel()
+        Me.Label66 = New System.Windows.Forms.Label()
+        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
+        Me.Label67 = New System.Windows.Forms.Label()
+        Me.B_Wirt_Panel = New System.Windows.Forms.Panel()
+        Me.Label68 = New System.Windows.Forms.Label()
+        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox21 = New System.Windows.Forms.PictureBox()
+        Me.Label69 = New System.Windows.Forms.Label()
+        Me.B_Händler_Panel = New System.Windows.Forms.Panel()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.B_Sammler_Panel = New System.Windows.Forms.Panel()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
+        Me.Label65 = New System.Windows.Forms.Label()
+        Me.B_Bauer_Panel = New System.Windows.Forms.Panel()
+        Me.Label62 = New System.Windows.Forms.Label()
+        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox15 = New System.Windows.Forms.PictureBox()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.B_Fischer_Panel = New System.Windows.Forms.Panel()
+        Me.Label60 = New System.Windows.Forms.Label()
+        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
+        Me.Label61 = New System.Windows.Forms.Label()
+        Me.B_Arbeitslos_Panel = New System.Windows.Forms.Panel()
+        Me.Label58 = New System.Windows.Forms.Label()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.Label59 = New System.Windows.Forms.Label()
+        Me.Label54 = New System.Windows.Forms.Label()
+        Me.RI_Panel = New System.Windows.Forms.Panel()
+        Me.RI_Echsenmensch_Panel = New System.Windows.Forms.Panel()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.Label53 = New System.Windows.Forms.Label()
+        Me.RI_Nachtelf_Panel = New System.Windows.Forms.Panel()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.Label52 = New System.Windows.Forms.Label()
+        Me.RI_Waldelf_Panel = New System.Windows.Forms.Panel()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.Label51 = New System.Windows.Forms.Label()
+        Me.RI_Goblin_Panel = New System.Windows.Forms.Panel()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.RI_Riese_Panel = New System.Windows.Forms.Panel()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.RI_Zwerg_Panel = New System.Windows.Forms.Panel()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.RI_Mensch_Panel = New System.Windows.Forms.Panel()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.Label78 = New System.Windows.Forms.Label()
+        Me.Label55 = New System.Windows.Forms.Label()
+        Me.Life_Skills_Button = New System.Windows.Forms.Button()
+        Me.Charakterzüge1 = New System.Windows.Forms.ComboBox()
+        Me.Charakterzüge2 = New System.Windows.Forms.ComboBox()
+        Me.Charakterzüge3 = New System.Windows.Forms.ComboBox()
+        Me.Gewicht_Box = New System.Windows.Forms.TextBox()
+        Me.Größe_Box = New System.Windows.Forms.TextBox()
+        Me.RI_Button = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Beruf_Button = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.M_Menue_Panel.SuspendLayout()
         Me.Character_Skills_Panel.SuspendLayout()
         CType(Me.TB_Manipulation, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -225,55 +225,55 @@ Partial Class CharacterC
         CType(Me.TB_Heilkunde, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TB_Handwerk, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
-        Me.RI_Panel.SuspendLayout()
-        Me.RI_Echsenmensch_Panel.SuspendLayout()
-        Me.RI_Nachtelf_Panel.SuspendLayout()
-        Me.RI_Waldelf_Panel.SuspendLayout()
-        Me.RI_Goblin_Panel.SuspendLayout()
-        Me.RI_Riese_Panel.SuspendLayout()
-        Me.RI_Zwerg_Panel.SuspendLayout()
-        Me.RI_Mensch_Panel.SuspendLayout()
         Me.Beruf_Panel.SuspendLayout()
-        Me.B_Händler_Panel.SuspendLayout()
-        Me.B_Arbeitslos_Panel.SuspendLayout()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.B_Fischer_Panel.SuspendLayout()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.B_Bauer_Panel.SuspendLayout()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.B_Sammler_Panel.SuspendLayout()
-        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.B_Priester_Panel.SuspendLayout()
-        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.B_Wirt_Panel.SuspendLayout()
-        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.B_Handwerk_Panel.SuspendLayout()
+        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.B_Soldat_Panel.SuspendLayout()
+        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.B_Magier_Panel.SuspendLayout()
         CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.B_Koch_Panel.SuspendLayout()
         CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.B_Soldat_Panel.SuspendLayout()
-        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.B_Handwerk_Panel.SuspendLayout()
-        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.B_Priester_Panel.SuspendLayout()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.B_Wirt_Panel.SuspendLayout()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.B_Händler_Panel.SuspendLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.B_Sammler_Panel.SuspendLayout()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.B_Bauer_Panel.SuspendLayout()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.B_Fischer_Panel.SuspendLayout()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.B_Arbeitslos_Panel.SuspendLayout()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RI_Panel.SuspendLayout()
+        Me.RI_Echsenmensch_Panel.SuspendLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RI_Nachtelf_Panel.SuspendLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RI_Waldelf_Panel.SuspendLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RI_Goblin_Panel.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RI_Riese_Panel.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RI_Zwerg_Panel.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RI_Mensch_Panel.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'M_Neu_Button
@@ -462,15 +462,6 @@ Partial Class CharacterC
         Me.Label8.TabIndex = 19
         Me.Label8.Text = "Gewicht:"
         '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(266, 221)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(25, 13)
-        Me.Label11.TabIndex = 23
-        Me.Label11.Text = "???"
-        '
         'Label13
         '
         Me.Label13.AutoSize = True
@@ -489,13 +480,13 @@ Partial Class CharacterC
         Me.Label14.TabIndex = 32
         Me.Label14.Text = "???"
         '
-        'ComboBox1
+        'FamilienStatus_CBox
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(131, 424)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(132, 21)
-        Me.ComboBox1.TabIndex = 30
+        Me.FamilienStatus_CBox.FormattingEnabled = True
+        Me.FamilienStatus_CBox.Location = New System.Drawing.Point(131, 424)
+        Me.FamilienStatus_CBox.Name = "FamilienStatus_CBox"
+        Me.FamilienStatus_CBox.Size = New System.Drawing.Size(132, 21)
+        Me.FamilienStatus_CBox.TabIndex = 30
         '
         'Label16
         '
@@ -507,13 +498,13 @@ Partial Class CharacterC
         Me.Label16.TabIndex = 29
         Me.Label16.Text = "Familienstatus:"
         '
-        'ComboBox2
+        'SozialerStatus_CBox
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(131, 397)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(132, 21)
-        Me.ComboBox2.TabIndex = 28
+        Me.SozialerStatus_CBox.FormattingEnabled = True
+        Me.SozialerStatus_CBox.Location = New System.Drawing.Point(131, 397)
+        Me.SozialerStatus_CBox.Name = "SozialerStatus_CBox"
+        Me.SozialerStatus_CBox.Size = New System.Drawing.Size(132, 21)
+        Me.SozialerStatus_CBox.TabIndex = 28
         '
         'Label17
         '
@@ -713,9 +704,9 @@ Partial Class CharacterC
         Me.Character_Skills_Panel.Controls.Add(Me.Label27)
         Me.Character_Skills_Panel.Controls.Add(Me.Label30)
         Me.Character_Skills_Panel.Controls.Add(Me.Label28)
-        Me.Character_Skills_Panel.Location = New System.Drawing.Point(987, 86)
+        Me.Character_Skills_Panel.Location = New System.Drawing.Point(987, 60)
         Me.Character_Skills_Panel.Name = "Character_Skills_Panel"
-        Me.Character_Skills_Panel.Size = New System.Drawing.Size(156, 58)
+        Me.Character_Skills_Panel.Size = New System.Drawing.Size(189, 38)
         Me.Character_Skills_Panel.TabIndex = 36
         '
         'Button3
@@ -900,9 +891,9 @@ Partial Class CharacterC
         Me.Life_Skills_Panel.Controls.Add(Me.Label48)
         Me.Life_Skills_Panel.Controls.Add(Me.Label49)
         Me.Life_Skills_Panel.Controls.Add(Me.Label50)
-        Me.Life_Skills_Panel.Location = New System.Drawing.Point(987, 9)
+        Me.Life_Skills_Panel.Location = New System.Drawing.Point(987, 17)
         Me.Life_Skills_Panel.Name = "Life_Skills_Panel"
-        Me.Life_Skills_Panel.Size = New System.Drawing.Size(156, 55)
+        Me.Life_Skills_Panel.Size = New System.Drawing.Size(135, 29)
         Me.Life_Skills_Panel.TabIndex = 36
         '
         'Button5
@@ -1167,8 +1158,584 @@ Partial Class CharacterC
         Me.Panel1.Controls.Add(Me.Character_Skills_Panel)
         Me.Panel1.Location = New System.Drawing.Point(344, 59)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(738, 818)
+        Me.Panel1.Size = New System.Drawing.Size(738, 608)
         Me.Panel1.TabIndex = 38
+        '
+        'Beruf_Panel
+        '
+        Me.Beruf_Panel.Controls.Add(Me.B_Handwerk_Panel)
+        Me.Beruf_Panel.Controls.Add(Me.B_Soldat_Panel)
+        Me.Beruf_Panel.Controls.Add(Me.B_Magier_Panel)
+        Me.Beruf_Panel.Controls.Add(Me.B_Koch_Panel)
+        Me.Beruf_Panel.Controls.Add(Me.B_Priester_Panel)
+        Me.Beruf_Panel.Controls.Add(Me.B_Wirt_Panel)
+        Me.Beruf_Panel.Controls.Add(Me.B_Händler_Panel)
+        Me.Beruf_Panel.Controls.Add(Me.B_Sammler_Panel)
+        Me.Beruf_Panel.Controls.Add(Me.B_Bauer_Panel)
+        Me.Beruf_Panel.Controls.Add(Me.B_Fischer_Panel)
+        Me.Beruf_Panel.Controls.Add(Me.B_Arbeitslos_Panel)
+        Me.Beruf_Panel.Controls.Add(Me.Label54)
+        Me.Beruf_Panel.Location = New System.Drawing.Point(987, 211)
+        Me.Beruf_Panel.Name = "Beruf_Panel"
+        Me.Beruf_Panel.Size = New System.Drawing.Size(86, 39)
+        Me.Beruf_Panel.TabIndex = 42
+        '
+        'B_Handwerk_Panel
+        '
+        Me.B_Handwerk_Panel.Controls.Add(Me.Label76)
+        Me.B_Handwerk_Panel.Controls.Add(Me.PictureBox28)
+        Me.B_Handwerk_Panel.Controls.Add(Me.PictureBox29)
+        Me.B_Handwerk_Panel.Controls.Add(Me.Label77)
+        Me.B_Handwerk_Panel.Location = New System.Drawing.Point(990, 407)
+        Me.B_Handwerk_Panel.Name = "B_Handwerk_Panel"
+        Me.B_Handwerk_Panel.Size = New System.Drawing.Size(139, 31)
+        Me.B_Handwerk_Panel.TabIndex = 19
+        '
+        'Label76
+        '
+        Me.Label76.Location = New System.Drawing.Point(110, 26)
+        Me.Label76.Name = "Label76"
+        Me.Label76.Size = New System.Drawing.Size(530, 107)
+        Me.Label76.TabIndex = 21
+        Me.Label76.Text = resources.GetString("Label76.Text")
+        '
+        'PictureBox28
+        '
+        Me.PictureBox28.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Handweker
+        Me.PictureBox28.Location = New System.Drawing.Point(7, 24)
+        Me.PictureBox28.Name = "PictureBox28"
+        Me.PictureBox28.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox28.TabIndex = 19
+        Me.PictureBox28.TabStop = False
+        '
+        'PictureBox29
+        '
+        Me.PictureBox29.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeHanwerker
+        Me.PictureBox29.Location = New System.Drawing.Point(7, 133)
+        Me.PictureBox29.Name = "PictureBox29"
+        Me.PictureBox29.Size = New System.Drawing.Size(468, 452)
+        Me.PictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox29.TabIndex = 20
+        Me.PictureBox29.TabStop = False
+        '
+        'Label77
+        '
+        Me.Label77.AutoSize = True
+        Me.Label77.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label77.Location = New System.Drawing.Point(3, 0)
+        Me.Label77.Name = "Label77"
+        Me.Label77.Size = New System.Drawing.Size(127, 24)
+        Me.Label77.TabIndex = 18
+        Me.Label77.Text = "Handwerker:"
+        '
+        'B_Soldat_Panel
+        '
+        Me.B_Soldat_Panel.Controls.Add(Me.Label74)
+        Me.B_Soldat_Panel.Controls.Add(Me.PictureBox26)
+        Me.B_Soldat_Panel.Controls.Add(Me.PictureBox27)
+        Me.B_Soldat_Panel.Controls.Add(Me.Label75)
+        Me.B_Soldat_Panel.Location = New System.Drawing.Point(990, 372)
+        Me.B_Soldat_Panel.Name = "B_Soldat_Panel"
+        Me.B_Soldat_Panel.Size = New System.Drawing.Size(90, 24)
+        Me.B_Soldat_Panel.TabIndex = 19
+        '
+        'Label74
+        '
+        Me.Label74.Location = New System.Drawing.Point(110, 26)
+        Me.Label74.Name = "Label74"
+        Me.Label74.Size = New System.Drawing.Size(530, 107)
+        Me.Label74.TabIndex = 21
+        Me.Label74.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Sozial angesehen" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Infiltration" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Wissen auf Waffen und Kriegstechnick" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negativ:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- Schnelle Entwicklung von Süchten" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- Nicht gern bei Pazifisten ges" &
+    "ehen"
+        '
+        'PictureBox26
+        '
+        Me.PictureBox26.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Soldat
+        Me.PictureBox26.Location = New System.Drawing.Point(7, 24)
+        Me.PictureBox26.Name = "PictureBox26"
+        Me.PictureBox26.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox26.TabIndex = 19
+        Me.PictureBox26.TabStop = False
+        '
+        'PictureBox27
+        '
+        Me.PictureBox27.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeSoldat
+        Me.PictureBox27.Location = New System.Drawing.Point(7, 133)
+        Me.PictureBox27.Name = "PictureBox27"
+        Me.PictureBox27.Size = New System.Drawing.Size(488, 481)
+        Me.PictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox27.TabIndex = 20
+        Me.PictureBox27.TabStop = False
+        '
+        'Label75
+        '
+        Me.Label75.AutoSize = True
+        Me.Label75.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label75.Location = New System.Drawing.Point(3, 0)
+        Me.Label75.Name = "Label75"
+        Me.Label75.Size = New System.Drawing.Size(75, 24)
+        Me.Label75.TabIndex = 18
+        Me.Label75.Text = "Soldat:"
+        '
+        'B_Magier_Panel
+        '
+        Me.B_Magier_Panel.Controls.Add(Me.Label70)
+        Me.B_Magier_Panel.Controls.Add(Me.PictureBox22)
+        Me.B_Magier_Panel.Controls.Add(Me.PictureBox23)
+        Me.B_Magier_Panel.Controls.Add(Me.Label71)
+        Me.B_Magier_Panel.Location = New System.Drawing.Point(989, 332)
+        Me.B_Magier_Panel.Name = "B_Magier_Panel"
+        Me.B_Magier_Panel.Size = New System.Drawing.Size(113, 32)
+        Me.B_Magier_Panel.TabIndex = 19
+        '
+        'Label70
+        '
+        Me.Label70.Location = New System.Drawing.Point(110, 26)
+        Me.Label70.Name = "Label70"
+        Me.Label70.Size = New System.Drawing.Size(530, 111)
+        Me.Label70.TabIndex = 21
+        Me.Label70.Text = "Pro: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Wissen auf Magie / Übermenschliches" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Zaubertrankherstellung" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negat" &
+    "iv:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- Nicht gern in Kirchen gesehen (außer Exorzisten)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- Ermüden bei exzesiver" &
+    " Magienutzung" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'PictureBox22
+        '
+        Me.PictureBox22.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Magier
+        Me.PictureBox22.Location = New System.Drawing.Point(7, 24)
+        Me.PictureBox22.Name = "PictureBox22"
+        Me.PictureBox22.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox22.TabIndex = 19
+        Me.PictureBox22.TabStop = False
+        '
+        'PictureBox23
+        '
+        Me.PictureBox23.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeMagier
+        Me.PictureBox23.Location = New System.Drawing.Point(7, 133)
+        Me.PictureBox23.Name = "PictureBox23"
+        Me.PictureBox23.Size = New System.Drawing.Size(754, 834)
+        Me.PictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox23.TabIndex = 20
+        Me.PictureBox23.TabStop = False
+        '
+        'Label71
+        '
+        Me.Label71.AutoSize = True
+        Me.Label71.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label71.Location = New System.Drawing.Point(3, 0)
+        Me.Label71.Name = "Label71"
+        Me.Label71.Size = New System.Drawing.Size(80, 24)
+        Me.Label71.TabIndex = 18
+        Me.Label71.Text = "Magier:"
+        '
+        'B_Koch_Panel
+        '
+        Me.B_Koch_Panel.Controls.Add(Me.Label72)
+        Me.B_Koch_Panel.Controls.Add(Me.PictureBox24)
+        Me.B_Koch_Panel.Controls.Add(Me.PictureBox25)
+        Me.B_Koch_Panel.Controls.Add(Me.Label73)
+        Me.B_Koch_Panel.Location = New System.Drawing.Point(990, 292)
+        Me.B_Koch_Panel.Name = "B_Koch_Panel"
+        Me.B_Koch_Panel.Size = New System.Drawing.Size(77, 31)
+        Me.B_Koch_Panel.TabIndex = 19
+        '
+        'Label72
+        '
+        Me.Label72.Location = New System.Drawing.Point(110, 26)
+        Me.Label72.Name = "Label72"
+        Me.Label72.Size = New System.Drawing.Size(530, 97)
+        Me.Label72.TabIndex = 21
+        Me.Label72.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Herstellung von Essen / Trinken" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'PictureBox24
+        '
+        Me.PictureBox24.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Koch
+        Me.PictureBox24.Location = New System.Drawing.Point(7, 24)
+        Me.PictureBox24.Name = "PictureBox24"
+        Me.PictureBox24.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox24.TabIndex = 19
+        Me.PictureBox24.TabStop = False
+        '
+        'PictureBox25
+        '
+        Me.PictureBox25.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeKoch
+        Me.PictureBox25.Location = New System.Drawing.Point(7, 130)
+        Me.PictureBox25.Name = "PictureBox25"
+        Me.PictureBox25.Size = New System.Drawing.Size(466, 201)
+        Me.PictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox25.TabIndex = 20
+        Me.PictureBox25.TabStop = False
+        '
+        'Label73
+        '
+        Me.Label73.AutoSize = True
+        Me.Label73.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label73.Location = New System.Drawing.Point(3, 0)
+        Me.Label73.Name = "Label73"
+        Me.Label73.Size = New System.Drawing.Size(64, 24)
+        Me.Label73.TabIndex = 18
+        Me.Label73.Text = "Koch:"
+        '
+        'B_Priester_Panel
+        '
+        Me.B_Priester_Panel.Controls.Add(Me.Label66)
+        Me.B_Priester_Panel.Controls.Add(Me.PictureBox18)
+        Me.B_Priester_Panel.Controls.Add(Me.PictureBox19)
+        Me.B_Priester_Panel.Controls.Add(Me.Label67)
+        Me.B_Priester_Panel.Location = New System.Drawing.Point(990, 257)
+        Me.B_Priester_Panel.Name = "B_Priester_Panel"
+        Me.B_Priester_Panel.Size = New System.Drawing.Size(114, 30)
+        Me.B_Priester_Panel.TabIndex = 19
+        '
+        'Label66
+        '
+        Me.Label66.Location = New System.Drawing.Point(110, 26)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(530, 108)
+        Me.Label66.TabIndex = 21
+        Me.Label66.Text = resources.GetString("Label66.Text")
+        '
+        'PictureBox18
+        '
+        Me.PictureBox18.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Priester
+        Me.PictureBox18.Location = New System.Drawing.Point(7, 24)
+        Me.PictureBox18.Name = "PictureBox18"
+        Me.PictureBox18.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox18.TabIndex = 19
+        Me.PictureBox18.TabStop = False
+        '
+        'PictureBox19
+        '
+        Me.PictureBox19.Image = Global.Pen_and_Paper.My.Resources.Resources.TreePriester
+        Me.PictureBox19.Location = New System.Drawing.Point(7, 130)
+        Me.PictureBox19.Name = "PictureBox19"
+        Me.PictureBox19.Size = New System.Drawing.Size(633, 473)
+        Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox19.TabIndex = 20
+        Me.PictureBox19.TabStop = False
+        '
+        'Label67
+        '
+        Me.Label67.AutoSize = True
+        Me.Label67.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label67.Location = New System.Drawing.Point(3, 0)
+        Me.Label67.Name = "Label67"
+        Me.Label67.Size = New System.Drawing.Size(90, 24)
+        Me.Label67.TabIndex = 18
+        Me.Label67.Text = "Priester:"
+        '
+        'B_Wirt_Panel
+        '
+        Me.B_Wirt_Panel.Controls.Add(Me.Label68)
+        Me.B_Wirt_Panel.Controls.Add(Me.PictureBox20)
+        Me.B_Wirt_Panel.Controls.Add(Me.PictureBox21)
+        Me.B_Wirt_Panel.Controls.Add(Me.Label69)
+        Me.B_Wirt_Panel.Location = New System.Drawing.Point(990, 216)
+        Me.B_Wirt_Panel.Name = "B_Wirt_Panel"
+        Me.B_Wirt_Panel.Size = New System.Drawing.Size(105, 32)
+        Me.B_Wirt_Panel.TabIndex = 19
+        '
+        'Label68
+        '
+        Me.Label68.Location = New System.Drawing.Point(110, 26)
+        Me.Label68.Name = "Label68"
+        Me.Label68.Size = New System.Drawing.Size(622, 98)
+        Me.Label68.TabIndex = 21
+        Me.Label68.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Sozial Kompetent" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Verträgt viel Alkohol" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Handel" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negativ:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-Trinkt " &
+    "viel (automatische Sucht -> Alkohol)"
+        '
+        'PictureBox20
+        '
+        Me.PictureBox20.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Wirt
+        Me.PictureBox20.Location = New System.Drawing.Point(7, 24)
+        Me.PictureBox20.Name = "PictureBox20"
+        Me.PictureBox20.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox20.TabIndex = 19
+        Me.PictureBox20.TabStop = False
+        '
+        'PictureBox21
+        '
+        Me.PictureBox21.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeWirt
+        Me.PictureBox21.Location = New System.Drawing.Point(7, 130)
+        Me.PictureBox21.Name = "PictureBox21"
+        Me.PictureBox21.Size = New System.Drawing.Size(503, 341)
+        Me.PictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox21.TabIndex = 20
+        Me.PictureBox21.TabStop = False
+        '
+        'Label69
+        '
+        Me.Label69.AutoSize = True
+        Me.Label69.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label69.Location = New System.Drawing.Point(3, 0)
+        Me.Label69.Name = "Label69"
+        Me.Label69.Size = New System.Drawing.Size(55, 24)
+        Me.Label69.TabIndex = 18
+        Me.Label69.Text = "Wirt:"
+        '
+        'B_Händler_Panel
+        '
+        Me.B_Händler_Panel.Controls.Add(Me.Label57)
+        Me.B_Händler_Panel.Controls.Add(Me.PictureBox8)
+        Me.B_Händler_Panel.Controls.Add(Me.PictureBox9)
+        Me.B_Händler_Panel.Controls.Add(Me.Label56)
+        Me.B_Händler_Panel.Location = New System.Drawing.Point(988, 180)
+        Me.B_Händler_Panel.Name = "B_Händler_Panel"
+        Me.B_Händler_Panel.Size = New System.Drawing.Size(93, 30)
+        Me.B_Händler_Panel.TabIndex = 19
+        '
+        'Label57
+        '
+        Me.Label57.Location = New System.Drawing.Point(110, 26)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(622, 107)
+        Me.Label57.TabIndex = 21
+        Me.Label57.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Verhandeln" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Verarschen beim Handel" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+Buff bei Gesprächen" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negativ" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- " &
+    "Das Verarschen kann sehr nach hinten losgehen" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- Zwei Linke Hände" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Händler
+        Me.PictureBox8.Location = New System.Drawing.Point(7, 24)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox8.TabIndex = 19
+        Me.PictureBox8.TabStop = False
+        '
+        'PictureBox9
+        '
+        Me.PictureBox9.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeHändler
+        Me.PictureBox9.Location = New System.Drawing.Point(7, 130)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(466, 336)
+        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox9.TabIndex = 20
+        Me.PictureBox9.TabStop = False
+        '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label56.Location = New System.Drawing.Point(3, 0)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(87, 24)
+        Me.Label56.TabIndex = 18
+        Me.Label56.Text = "Händler:"
+        '
+        'B_Sammler_Panel
+        '
+        Me.B_Sammler_Panel.Controls.Add(Me.Label64)
+        Me.B_Sammler_Panel.Controls.Add(Me.PictureBox16)
+        Me.B_Sammler_Panel.Controls.Add(Me.PictureBox17)
+        Me.B_Sammler_Panel.Controls.Add(Me.Label65)
+        Me.B_Sammler_Panel.Location = New System.Drawing.Point(989, 136)
+        Me.B_Sammler_Panel.Name = "B_Sammler_Panel"
+        Me.B_Sammler_Panel.Size = New System.Drawing.Size(112, 40)
+        Me.B_Sammler_Panel.TabIndex = 19
+        '
+        'Label64
+        '
+        Me.Label64.Location = New System.Drawing.Point(110, 26)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(622, 125)
+        Me.Label64.TabIndex = 21
+        Me.Label64.Text = resources.GetString("Label64.Text")
+        '
+        'PictureBox16
+        '
+        Me.PictureBox16.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Sammler
+        Me.PictureBox16.Location = New System.Drawing.Point(7, 24)
+        Me.PictureBox16.Name = "PictureBox16"
+        Me.PictureBox16.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox16.TabIndex = 19
+        Me.PictureBox16.TabStop = False
+        '
+        'PictureBox17
+        '
+        Me.PictureBox17.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeSammeln
+        Me.PictureBox17.Location = New System.Drawing.Point(7, 145)
+        Me.PictureBox17.Name = "PictureBox17"
+        Me.PictureBox17.Size = New System.Drawing.Size(640, 328)
+        Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox17.TabIndex = 20
+        Me.PictureBox17.TabStop = False
+        '
+        'Label65
+        '
+        Me.Label65.AutoSize = True
+        Me.Label65.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label65.Location = New System.Drawing.Point(3, 0)
+        Me.Label65.Name = "Label65"
+        Me.Label65.Size = New System.Drawing.Size(97, 24)
+        Me.Label65.TabIndex = 18
+        Me.Label65.Text = "Sammler:"
+        '
+        'B_Bauer_Panel
+        '
+        Me.B_Bauer_Panel.Controls.Add(Me.Label62)
+        Me.B_Bauer_Panel.Controls.Add(Me.PictureBox14)
+        Me.B_Bauer_Panel.Controls.Add(Me.PictureBox15)
+        Me.B_Bauer_Panel.Controls.Add(Me.Label63)
+        Me.B_Bauer_Panel.Location = New System.Drawing.Point(988, 96)
+        Me.B_Bauer_Panel.Name = "B_Bauer_Panel"
+        Me.B_Bauer_Panel.Size = New System.Drawing.Size(89, 33)
+        Me.B_Bauer_Panel.TabIndex = 19
+        '
+        'Label62
+        '
+        Me.Label62.Location = New System.Drawing.Point(110, 26)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(622, 100)
+        Me.Label62.TabIndex = 21
+        Me.Label62.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+Wissen auf Anbau/Verarbeitung von Anbaustuff ODER Vieh (je nach Bauernart)" &
+    "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-> Viehbauer / Normaler Bauer" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negativ:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-Unwohlheit auf dem Meer" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-Bist hal" &
+    "t n Bauer neeeh"
+        '
+        'PictureBox14
+        '
+        Me.PictureBox14.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Bauer
+        Me.PictureBox14.Location = New System.Drawing.Point(7, 24)
+        Me.PictureBox14.Name = "PictureBox14"
+        Me.PictureBox14.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox14.TabIndex = 19
+        Me.PictureBox14.TabStop = False
+        '
+        'PictureBox15
+        '
+        Me.PictureBox15.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeBauer
+        Me.PictureBox15.Location = New System.Drawing.Point(7, 127)
+        Me.PictureBox15.Name = "PictureBox15"
+        Me.PictureBox15.Size = New System.Drawing.Size(595, 391)
+        Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox15.TabIndex = 20
+        Me.PictureBox15.TabStop = False
+        '
+        'Label63
+        '
+        Me.Label63.AutoSize = True
+        Me.Label63.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label63.Location = New System.Drawing.Point(3, 0)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(72, 24)
+        Me.Label63.TabIndex = 18
+        Me.Label63.Text = "Bauer:"
+        '
+        'B_Fischer_Panel
+        '
+        Me.B_Fischer_Panel.Controls.Add(Me.Label60)
+        Me.B_Fischer_Panel.Controls.Add(Me.PictureBox12)
+        Me.B_Fischer_Panel.Controls.Add(Me.PictureBox13)
+        Me.B_Fischer_Panel.Controls.Add(Me.Label61)
+        Me.B_Fischer_Panel.Location = New System.Drawing.Point(985, 48)
+        Me.B_Fischer_Panel.Name = "B_Fischer_Panel"
+        Me.B_Fischer_Panel.Size = New System.Drawing.Size(114, 35)
+        Me.B_Fischer_Panel.TabIndex = 19
+        '
+        'Label60
+        '
+        Me.Label60.Location = New System.Drawing.Point(110, 26)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(622, 100)
+        Me.Label60.TabIndex = 21
+        Me.Label60.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+Buffs auf dem Meer" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+Verarbeitung/Fangen von Fischen" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+Schiffsreperatur" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negativ:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-Unwohlheit in trockenen Gebieten" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'PictureBox12
+        '
+        Me.PictureBox12.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Fischer
+        Me.PictureBox12.Location = New System.Drawing.Point(7, 24)
+        Me.PictureBox12.Name = "PictureBox12"
+        Me.PictureBox12.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox12.TabIndex = 19
+        Me.PictureBox12.TabStop = False
+        '
+        'PictureBox13
+        '
+        Me.PictureBox13.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeFischen
+        Me.PictureBox13.Location = New System.Drawing.Point(7, 127)
+        Me.PictureBox13.Name = "PictureBox13"
+        Me.PictureBox13.Size = New System.Drawing.Size(680, 389)
+        Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox13.TabIndex = 20
+        Me.PictureBox13.TabStop = False
+        '
+        'Label61
+        '
+        Me.Label61.AutoSize = True
+        Me.Label61.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label61.Location = New System.Drawing.Point(3, 0)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(86, 24)
+        Me.Label61.TabIndex = 18
+        Me.Label61.Text = "Fischer:"
+        '
+        'B_Arbeitslos_Panel
+        '
+        Me.B_Arbeitslos_Panel.Controls.Add(Me.Label58)
+        Me.B_Arbeitslos_Panel.Controls.Add(Me.PictureBox10)
+        Me.B_Arbeitslos_Panel.Controls.Add(Me.PictureBox11)
+        Me.B_Arbeitslos_Panel.Controls.Add(Me.Label59)
+        Me.B_Arbeitslos_Panel.Location = New System.Drawing.Point(988, 9)
+        Me.B_Arbeitslos_Panel.Name = "B_Arbeitslos_Panel"
+        Me.B_Arbeitslos_Panel.Size = New System.Drawing.Size(142, 33)
+        Me.B_Arbeitslos_Panel.TabIndex = 19
+        '
+        'Label58
+        '
+        Me.Label58.Location = New System.Drawing.Point(113, 27)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(622, 100)
+        Me.Label58.TabIndex = 21
+        Me.Label58.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Nicht, du bis arbeitslos du Penner" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negativ:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-Senkung des sozialen Statu" &
+    "s wenn Leute es rausfinden"
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeArbeitslos
+        Me.PictureBox10.Location = New System.Drawing.Point(7, 127)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(235, 279)
+        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox10.TabIndex = 20
+        Me.PictureBox10.TabStop = False
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Arbeitslos
+        Me.PictureBox11.Location = New System.Drawing.Point(7, 27)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox11.TabIndex = 19
+        Me.PictureBox11.TabStop = False
+        '
+        'Label59
+        '
+        Me.Label59.AutoSize = True
+        Me.Label59.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label59.Location = New System.Drawing.Point(3, 0)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(108, 24)
+        Me.Label59.TabIndex = 18
+        Me.Label59.Text = "Arbeitslos:"
+        '
+        'Label54
+        '
+        Me.Label54.AutoSize = True
+        Me.Label54.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label54.Location = New System.Drawing.Point(3, 3)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(66, 24)
+        Me.Label54.TabIndex = 18
+        Me.Label54.Text = "Beruf:"
         '
         'RI_Panel
         '
@@ -1206,6 +1773,14 @@ Partial Class CharacterC
         Me.TextBox7.TabIndex = 3
         Me.TextBox7.Text = "Geschichte, dies das"
         '
+        'PictureBox7
+        '
+        Me.PictureBox7.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox7.TabIndex = 2
+        Me.PictureBox7.TabStop = False
+        '
         'Label53
         '
         Me.Label53.AutoSize = True
@@ -1235,6 +1810,15 @@ Partial Class CharacterC
         Me.TextBox6.Size = New System.Drawing.Size(252, 145)
         Me.TextBox6.TabIndex = 3
         Me.TextBox6.Text = "Geschichte, dies das"
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_06_Waldelf
+        Me.PictureBox6.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox6.TabIndex = 2
+        Me.PictureBox6.TabStop = False
         '
         'Label52
         '
@@ -1266,6 +1850,14 @@ Partial Class CharacterC
         Me.TextBox5.TabIndex = 3
         Me.TextBox5.Text = "Geschichte, dies das"
         '
+        'PictureBox5
+        '
+        Me.PictureBox5.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox5.TabIndex = 2
+        Me.PictureBox5.TabStop = False
+        '
         'Label51
         '
         Me.Label51.AutoSize = True
@@ -1295,6 +1887,15 @@ Partial Class CharacterC
         Me.TextBox4.Size = New System.Drawing.Size(252, 145)
         Me.TextBox4.TabIndex = 3
         Me.TextBox4.Text = "Geschichte, dies das"
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_04_Goblin
+        Me.PictureBox4.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox4.TabIndex = 2
+        Me.PictureBox4.TabStop = False
         '
         'Label42
         '
@@ -1326,6 +1927,15 @@ Partial Class CharacterC
         Me.TextBox3.TabIndex = 3
         Me.TextBox3.Text = "Geschichte, dies das"
         '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_03_Riese
+        Me.PictureBox3.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox3.TabIndex = 2
+        Me.PictureBox3.TabStop = False
+        '
         'Label15
         '
         Me.Label15.AutoSize = True
@@ -1355,6 +1965,15 @@ Partial Class CharacterC
         Me.TextBox1.Size = New System.Drawing.Size(252, 145)
         Me.TextBox1.TabIndex = 3
         Me.TextBox1.Text = "Geschichte, dies das"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_01_Zwerg
+        Me.PictureBox1.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
         '
         'Label9
         '
@@ -1386,6 +2005,15 @@ Partial Class CharacterC
         Me.TextBox2.TabIndex = 3
         Me.TextBox2.Text = "Geschichte, dies das"
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_02_Mensch
+        Me.PictureBox2.Location = New System.Drawing.Point(265, 37)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(154, 145)
+        Me.PictureBox2.TabIndex = 2
+        Me.PictureBox2.TabStop = False
+        '
         'Label12
         '
         Me.Label12.AutoSize = True
@@ -1396,6 +2024,16 @@ Partial Class CharacterC
         Me.Label12.TabIndex = 0
         Me.Label12.Text = "Rassen-Info: Mensch"
         '
+        'Label78
+        '
+        Me.Label78.AutoSize = True
+        Me.Label78.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label78.Location = New System.Drawing.Point(3, 3)
+        Me.Label78.Name = "Label78"
+        Me.Label78.Size = New System.Drawing.Size(88, 24)
+        Me.Label78.TabIndex = 18
+        Me.Label78.Text = "Rassen:"
+        '
         'Label55
         '
         Me.Label55.AutoSize = True
@@ -1405,16 +2043,6 @@ Partial Class CharacterC
         Me.Label55.Size = New System.Drawing.Size(225, 24)
         Me.Label55.TabIndex = 18
         Me.Label55.Text = "Bitte Rasse Auswählen"
-        '
-        'Label54
-        '
-        Me.Label54.AutoSize = True
-        Me.Label54.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label54.Location = New System.Drawing.Point(3, 3)
-        Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(66, 24)
-        Me.Label54.TabIndex = 18
-        Me.Label54.Text = "Beruf:"
         '
         'Life_Skills_Button
         '
@@ -1484,638 +2112,6 @@ Partial Class CharacterC
         Me.Button1.Text = "Place holder"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Beruf_Panel
-        '
-        Me.Beruf_Panel.Controls.Add(Me.B_Handwerk_Panel)
-        Me.Beruf_Panel.Controls.Add(Me.B_Soldat_Panel)
-        Me.Beruf_Panel.Controls.Add(Me.B_Magier_Panel)
-        Me.Beruf_Panel.Controls.Add(Me.B_Koch_Panel)
-        Me.Beruf_Panel.Controls.Add(Me.B_Priester_Panel)
-        Me.Beruf_Panel.Controls.Add(Me.B_Wirt_Panel)
-        Me.Beruf_Panel.Controls.Add(Me.B_Händler_Panel)
-        Me.Beruf_Panel.Controls.Add(Me.B_Sammler_Panel)
-        Me.Beruf_Panel.Controls.Add(Me.B_Bauer_Panel)
-        Me.Beruf_Panel.Controls.Add(Me.B_Fischer_Panel)
-        Me.Beruf_Panel.Controls.Add(Me.B_Arbeitslos_Panel)
-        Me.Beruf_Panel.Controls.Add(Me.Label54)
-        Me.Beruf_Panel.Location = New System.Drawing.Point(989, 212)
-        Me.Beruf_Panel.Name = "Beruf_Panel"
-        Me.Beruf_Panel.Size = New System.Drawing.Size(143, 50)
-        Me.Beruf_Panel.TabIndex = 42
-        '
-        'B_Händler_Panel
-        '
-        Me.B_Händler_Panel.Controls.Add(Me.Label57)
-        Me.B_Händler_Panel.Controls.Add(Me.PictureBox8)
-        Me.B_Händler_Panel.Controls.Add(Me.PictureBox9)
-        Me.B_Händler_Panel.Controls.Add(Me.Label56)
-        Me.B_Händler_Panel.Location = New System.Drawing.Point(988, 180)
-        Me.B_Händler_Panel.Name = "B_Händler_Panel"
-        Me.B_Händler_Panel.Size = New System.Drawing.Size(93, 30)
-        Me.B_Händler_Panel.TabIndex = 19
-        '
-        'Label56
-        '
-        Me.Label56.AutoSize = True
-        Me.Label56.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label56.Location = New System.Drawing.Point(3, 0)
-        Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(87, 24)
-        Me.Label56.TabIndex = 18
-        Me.Label56.Text = "Händler:"
-        '
-        'Label57
-        '
-        Me.Label57.Location = New System.Drawing.Point(110, 26)
-        Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(622, 107)
-        Me.Label57.TabIndex = 21
-        Me.Label57.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Verhandeln" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Verarschen beim Handel" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+Buff bei Gesprächen" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negativ" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- " &
-    "Das Verarschen kann sehr nach hinten losgehen" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- Zwei Linke Hände" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        '
-        'B_Arbeitslos_Panel
-        '
-        Me.B_Arbeitslos_Panel.Controls.Add(Me.Label58)
-        Me.B_Arbeitslos_Panel.Controls.Add(Me.PictureBox10)
-        Me.B_Arbeitslos_Panel.Controls.Add(Me.PictureBox11)
-        Me.B_Arbeitslos_Panel.Controls.Add(Me.Label59)
-        Me.B_Arbeitslos_Panel.Location = New System.Drawing.Point(988, 9)
-        Me.B_Arbeitslos_Panel.Name = "B_Arbeitslos_Panel"
-        Me.B_Arbeitslos_Panel.Size = New System.Drawing.Size(142, 33)
-        Me.B_Arbeitslos_Panel.TabIndex = 19
-        '
-        'Label58
-        '
-        Me.Label58.Location = New System.Drawing.Point(113, 27)
-        Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(622, 100)
-        Me.Label58.TabIndex = 21
-        Me.Label58.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Nicht, du bis arbeitslos du Penner" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negativ:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-Senkung des sozialen Statu" &
-    "s wenn Leute es rausfinden"
-        '
-        'Label59
-        '
-        Me.Label59.AutoSize = True
-        Me.Label59.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label59.Location = New System.Drawing.Point(3, 0)
-        Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(108, 24)
-        Me.Label59.TabIndex = 18
-        Me.Label59.Text = "Arbeitslos:"
-        '
-        'PictureBox10
-        '
-        Me.PictureBox10.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeArbeitslos
-        Me.PictureBox10.Location = New System.Drawing.Point(7, 127)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(235, 279)
-        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox10.TabIndex = 20
-        Me.PictureBox10.TabStop = False
-        '
-        'PictureBox11
-        '
-        Me.PictureBox11.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Arbeitslos
-        Me.PictureBox11.Location = New System.Drawing.Point(7, 27)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox11.TabIndex = 19
-        Me.PictureBox11.TabStop = False
-        '
-        'PictureBox9
-        '
-        Me.PictureBox9.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeHändler
-        Me.PictureBox9.Location = New System.Drawing.Point(7, 130)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(466, 336)
-        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox9.TabIndex = 20
-        Me.PictureBox9.TabStop = False
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox7.TabIndex = 2
-        Me.PictureBox7.TabStop = False
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_06_Waldelf
-        Me.PictureBox6.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox6.TabIndex = 2
-        Me.PictureBox6.TabStop = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox5.TabIndex = 2
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_04_Goblin
-        Me.PictureBox4.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox4.TabIndex = 2
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_03_Riese
-        Me.PictureBox3.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox3.TabIndex = 2
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_01_Zwerg
-        Me.PictureBox1.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox1.TabIndex = 2
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.Pen_and_Paper.My.Resources.Resources.player_character_02_Mensch
-        Me.PictureBox2.Location = New System.Drawing.Point(265, 37)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(154, 145)
-        Me.PictureBox2.TabIndex = 2
-        Me.PictureBox2.TabStop = False
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Händler
-        Me.PictureBox8.Location = New System.Drawing.Point(7, 24)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 19
-        Me.PictureBox8.TabStop = False
-        '
-        'B_Fischer_Panel
-        '
-        Me.B_Fischer_Panel.Controls.Add(Me.Label60)
-        Me.B_Fischer_Panel.Controls.Add(Me.PictureBox12)
-        Me.B_Fischer_Panel.Controls.Add(Me.PictureBox13)
-        Me.B_Fischer_Panel.Controls.Add(Me.Label61)
-        Me.B_Fischer_Panel.Location = New System.Drawing.Point(985, 48)
-        Me.B_Fischer_Panel.Name = "B_Fischer_Panel"
-        Me.B_Fischer_Panel.Size = New System.Drawing.Size(114, 35)
-        Me.B_Fischer_Panel.TabIndex = 19
-        '
-        'Label60
-        '
-        Me.Label60.Location = New System.Drawing.Point(110, 26)
-        Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(622, 100)
-        Me.Label60.TabIndex = 21
-        Me.Label60.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+Buffs auf dem Meer" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+Verarbeitung/Fangen von Fischen" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+Schiffsreperatur" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negativ:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-Unwohlheit in trockenen Gebieten" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        '
-        'PictureBox12
-        '
-        Me.PictureBox12.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Fischer
-        Me.PictureBox12.Location = New System.Drawing.Point(7, 24)
-        Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox12.TabIndex = 19
-        Me.PictureBox12.TabStop = False
-        '
-        'PictureBox13
-        '
-        Me.PictureBox13.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeFischen
-        Me.PictureBox13.Location = New System.Drawing.Point(7, 127)
-        Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(680, 389)
-        Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox13.TabIndex = 20
-        Me.PictureBox13.TabStop = False
-        '
-        'Label61
-        '
-        Me.Label61.AutoSize = True
-        Me.Label61.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label61.Location = New System.Drawing.Point(3, 0)
-        Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(86, 24)
-        Me.Label61.TabIndex = 18
-        Me.Label61.Text = "Fischer:"
-        '
-        'B_Bauer_Panel
-        '
-        Me.B_Bauer_Panel.Controls.Add(Me.Label62)
-        Me.B_Bauer_Panel.Controls.Add(Me.PictureBox14)
-        Me.B_Bauer_Panel.Controls.Add(Me.PictureBox15)
-        Me.B_Bauer_Panel.Controls.Add(Me.Label63)
-        Me.B_Bauer_Panel.Location = New System.Drawing.Point(988, 96)
-        Me.B_Bauer_Panel.Name = "B_Bauer_Panel"
-        Me.B_Bauer_Panel.Size = New System.Drawing.Size(89, 33)
-        Me.B_Bauer_Panel.TabIndex = 19
-        '
-        'Label62
-        '
-        Me.Label62.Location = New System.Drawing.Point(110, 26)
-        Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(622, 100)
-        Me.Label62.TabIndex = 21
-        Me.Label62.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+Wissen auf Anbau/Verarbeitung von Anbaustuff ODER Vieh (je nach Bauernart)" &
-    "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-> Viehbauer / Normaler Bauer" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negativ:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-Unwohlheit auf dem Meer" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-Bist hal" &
-    "t n Bauer neeeh"
-        '
-        'PictureBox14
-        '
-        Me.PictureBox14.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Bauer
-        Me.PictureBox14.Location = New System.Drawing.Point(7, 24)
-        Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox14.TabIndex = 19
-        Me.PictureBox14.TabStop = False
-        '
-        'PictureBox15
-        '
-        Me.PictureBox15.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeBauer
-        Me.PictureBox15.Location = New System.Drawing.Point(7, 127)
-        Me.PictureBox15.Name = "PictureBox15"
-        Me.PictureBox15.Size = New System.Drawing.Size(595, 391)
-        Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox15.TabIndex = 20
-        Me.PictureBox15.TabStop = False
-        '
-        'Label63
-        '
-        Me.Label63.AutoSize = True
-        Me.Label63.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.Location = New System.Drawing.Point(3, 0)
-        Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(72, 24)
-        Me.Label63.TabIndex = 18
-        Me.Label63.Text = "Bauer:"
-        '
-        'B_Sammler_Panel
-        '
-        Me.B_Sammler_Panel.Controls.Add(Me.Label64)
-        Me.B_Sammler_Panel.Controls.Add(Me.PictureBox16)
-        Me.B_Sammler_Panel.Controls.Add(Me.PictureBox17)
-        Me.B_Sammler_Panel.Controls.Add(Me.Label65)
-        Me.B_Sammler_Panel.Location = New System.Drawing.Point(916, 140)
-        Me.B_Sammler_Panel.Name = "B_Sammler_Panel"
-        Me.B_Sammler_Panel.Size = New System.Drawing.Size(109, 29)
-        Me.B_Sammler_Panel.TabIndex = 19
-        '
-        'Label64
-        '
-        Me.Label64.Location = New System.Drawing.Point(110, 26)
-        Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(622, 125)
-        Me.Label64.TabIndex = 21
-        Me.Label64.Text = resources.GetString("Label64.Text")
-        '
-        'PictureBox16
-        '
-        Me.PictureBox16.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Sammler
-        Me.PictureBox16.Location = New System.Drawing.Point(7, 24)
-        Me.PictureBox16.Name = "PictureBox16"
-        Me.PictureBox16.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox16.TabIndex = 19
-        Me.PictureBox16.TabStop = False
-        '
-        'PictureBox17
-        '
-        Me.PictureBox17.Location = New System.Drawing.Point(7, 145)
-        Me.PictureBox17.Name = "PictureBox17"
-        Me.PictureBox17.Size = New System.Drawing.Size(595, 391)
-        Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox17.TabIndex = 20
-        Me.PictureBox17.TabStop = False
-        '
-        'Label65
-        '
-        Me.Label65.AutoSize = True
-        Me.Label65.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label65.Location = New System.Drawing.Point(3, 0)
-        Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(97, 24)
-        Me.Label65.TabIndex = 18
-        Me.Label65.Text = "Sammler:"
-        '
-        'B_Priester_Panel
-        '
-        Me.B_Priester_Panel.Controls.Add(Me.Label66)
-        Me.B_Priester_Panel.Controls.Add(Me.PictureBox18)
-        Me.B_Priester_Panel.Controls.Add(Me.PictureBox19)
-        Me.B_Priester_Panel.Controls.Add(Me.Label67)
-        Me.B_Priester_Panel.Location = New System.Drawing.Point(916, 255)
-        Me.B_Priester_Panel.Name = "B_Priester_Panel"
-        Me.B_Priester_Panel.Size = New System.Drawing.Size(132, 30)
-        Me.B_Priester_Panel.TabIndex = 19
-        '
-        'Label66
-        '
-        Me.Label66.Location = New System.Drawing.Point(110, 26)
-        Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(530, 108)
-        Me.Label66.TabIndex = 21
-        Me.Label66.Text = resources.GetString("Label66.Text")
-        '
-        'PictureBox18
-        '
-        Me.PictureBox18.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Priester
-        Me.PictureBox18.Location = New System.Drawing.Point(7, 24)
-        Me.PictureBox18.Name = "PictureBox18"
-        Me.PictureBox18.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox18.TabIndex = 19
-        Me.PictureBox18.TabStop = False
-        '
-        'PictureBox19
-        '
-        Me.PictureBox19.Location = New System.Drawing.Point(7, 130)
-        Me.PictureBox19.Name = "PictureBox19"
-        Me.PictureBox19.Size = New System.Drawing.Size(466, 336)
-        Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox19.TabIndex = 20
-        Me.PictureBox19.TabStop = False
-        '
-        'Label67
-        '
-        Me.Label67.AutoSize = True
-        Me.Label67.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label67.Location = New System.Drawing.Point(3, 0)
-        Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(90, 24)
-        Me.Label67.TabIndex = 18
-        Me.Label67.Text = "Priester:"
-        '
-        'B_Wirt_Panel
-        '
-        Me.B_Wirt_Panel.Controls.Add(Me.Label68)
-        Me.B_Wirt_Panel.Controls.Add(Me.PictureBox20)
-        Me.B_Wirt_Panel.Controls.Add(Me.PictureBox21)
-        Me.B_Wirt_Panel.Controls.Add(Me.Label69)
-        Me.B_Wirt_Panel.Location = New System.Drawing.Point(990, 216)
-        Me.B_Wirt_Panel.Name = "B_Wirt_Panel"
-        Me.B_Wirt_Panel.Size = New System.Drawing.Size(105, 32)
-        Me.B_Wirt_Panel.TabIndex = 19
-        '
-        'Label68
-        '
-        Me.Label68.Location = New System.Drawing.Point(110, 26)
-        Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(622, 98)
-        Me.Label68.TabIndex = 21
-        Me.Label68.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Sozial Kompetent" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Verträgt viel Alkohol" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Handel" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negativ:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "-Trinkt " &
-    "viel (automatische Sucht -> Alkohol)"
-        '
-        'PictureBox20
-        '
-        Me.PictureBox20.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Wirt
-        Me.PictureBox20.Location = New System.Drawing.Point(7, 24)
-        Me.PictureBox20.Name = "PictureBox20"
-        Me.PictureBox20.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox20.TabIndex = 19
-        Me.PictureBox20.TabStop = False
-        '
-        'PictureBox21
-        '
-        Me.PictureBox21.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeWirt
-        Me.PictureBox21.Location = New System.Drawing.Point(7, 130)
-        Me.PictureBox21.Name = "PictureBox21"
-        Me.PictureBox21.Size = New System.Drawing.Size(503, 341)
-        Me.PictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox21.TabIndex = 20
-        Me.PictureBox21.TabStop = False
-        '
-        'Label69
-        '
-        Me.Label69.AutoSize = True
-        Me.Label69.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label69.Location = New System.Drawing.Point(3, 0)
-        Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(55, 24)
-        Me.Label69.TabIndex = 18
-        Me.Label69.Text = "Wirt:"
-        '
-        'B_Magier_Panel
-        '
-        Me.B_Magier_Panel.Controls.Add(Me.Label70)
-        Me.B_Magier_Panel.Controls.Add(Me.PictureBox22)
-        Me.B_Magier_Panel.Controls.Add(Me.PictureBox23)
-        Me.B_Magier_Panel.Controls.Add(Me.Label71)
-        Me.B_Magier_Panel.Location = New System.Drawing.Point(989, 332)
-        Me.B_Magier_Panel.Name = "B_Magier_Panel"
-        Me.B_Magier_Panel.Size = New System.Drawing.Size(113, 32)
-        Me.B_Magier_Panel.TabIndex = 19
-        '
-        'Label70
-        '
-        Me.Label70.Location = New System.Drawing.Point(110, 26)
-        Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(530, 111)
-        Me.Label70.TabIndex = 21
-        Me.Label70.Text = "Pro: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Wissen auf Magie / Übermenschliches" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Zaubertrankherstellung" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negat" &
-    "iv:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- Nicht gern in Kirchen gesehen (außer Exorzisten)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- Ermüden bei exzesiver" &
-    " Magienutzung" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        '
-        'PictureBox22
-        '
-        Me.PictureBox22.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Magier
-        Me.PictureBox22.Location = New System.Drawing.Point(7, 24)
-        Me.PictureBox22.Name = "PictureBox22"
-        Me.PictureBox22.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox22.TabIndex = 19
-        Me.PictureBox22.TabStop = False
-        '
-        'PictureBox23
-        '
-        Me.PictureBox23.Image = Global.Pen_and_Paper.My.Resources.Resources.TreeMagier
-        Me.PictureBox23.Location = New System.Drawing.Point(7, 133)
-        Me.PictureBox23.Name = "PictureBox23"
-        Me.PictureBox23.Size = New System.Drawing.Size(754, 834)
-        Me.PictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox23.TabIndex = 20
-        Me.PictureBox23.TabStop = False
-        '
-        'Label71
-        '
-        Me.Label71.AutoSize = True
-        Me.Label71.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(3, 0)
-        Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(80, 24)
-        Me.Label71.TabIndex = 18
-        Me.Label71.Text = "Magier:"
-        '
-        'B_Koch_Panel
-        '
-        Me.B_Koch_Panel.Controls.Add(Me.Label72)
-        Me.B_Koch_Panel.Controls.Add(Me.PictureBox24)
-        Me.B_Koch_Panel.Controls.Add(Me.PictureBox25)
-        Me.B_Koch_Panel.Controls.Add(Me.Label73)
-        Me.B_Koch_Panel.Location = New System.Drawing.Point(916, 294)
-        Me.B_Koch_Panel.Name = "B_Koch_Panel"
-        Me.B_Koch_Panel.Size = New System.Drawing.Size(112, 32)
-        Me.B_Koch_Panel.TabIndex = 19
-        '
-        'Label72
-        '
-        Me.Label72.Location = New System.Drawing.Point(110, 26)
-        Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(530, 97)
-        Me.Label72.TabIndex = 21
-        Me.Label72.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Herstellung von Essen / Trinken" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        '
-        'PictureBox24
-        '
-        Me.PictureBox24.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Koch
-        Me.PictureBox24.Location = New System.Drawing.Point(7, 24)
-        Me.PictureBox24.Name = "PictureBox24"
-        Me.PictureBox24.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox24.TabIndex = 19
-        Me.PictureBox24.TabStop = False
-        '
-        'PictureBox25
-        '
-        Me.PictureBox25.Location = New System.Drawing.Point(7, 130)
-        Me.PictureBox25.Name = "PictureBox25"
-        Me.PictureBox25.Size = New System.Drawing.Size(466, 336)
-        Me.PictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox25.TabIndex = 20
-        Me.PictureBox25.TabStop = False
-        '
-        'Label73
-        '
-        Me.Label73.AutoSize = True
-        Me.Label73.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.Location = New System.Drawing.Point(3, 0)
-        Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(64, 24)
-        Me.Label73.TabIndex = 18
-        Me.Label73.Text = "Koch:"
-        '
-        'B_Soldat_Panel
-        '
-        Me.B_Soldat_Panel.Controls.Add(Me.Label74)
-        Me.B_Soldat_Panel.Controls.Add(Me.PictureBox26)
-        Me.B_Soldat_Panel.Controls.Add(Me.PictureBox27)
-        Me.B_Soldat_Panel.Controls.Add(Me.Label75)
-        Me.B_Soldat_Panel.Location = New System.Drawing.Point(916, 370)
-        Me.B_Soldat_Panel.Name = "B_Soldat_Panel"
-        Me.B_Soldat_Panel.Size = New System.Drawing.Size(124, 32)
-        Me.B_Soldat_Panel.TabIndex = 19
-        '
-        'Label74
-        '
-        Me.Label74.Location = New System.Drawing.Point(110, 26)
-        Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(530, 107)
-        Me.Label74.TabIndex = 21
-        Me.Label74.Text = "Pro:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Sozial angesehen" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Infiltration" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "+ Wissen auf Waffen und Kriegstechnick" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Negativ:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- Schnelle Entwicklung von Süchten" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "- Nicht gern bei Pazifisten ges" &
-    "ehen"
-        '
-        'PictureBox26
-        '
-        Me.PictureBox26.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Soldat
-        Me.PictureBox26.Location = New System.Drawing.Point(7, 24)
-        Me.PictureBox26.Name = "PictureBox26"
-        Me.PictureBox26.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox26.TabIndex = 19
-        Me.PictureBox26.TabStop = False
-        '
-        'PictureBox27
-        '
-        Me.PictureBox27.Location = New System.Drawing.Point(7, 133)
-        Me.PictureBox27.Name = "PictureBox27"
-        Me.PictureBox27.Size = New System.Drawing.Size(754, 834)
-        Me.PictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox27.TabIndex = 20
-        Me.PictureBox27.TabStop = False
-        '
-        'Label75
-        '
-        Me.Label75.AutoSize = True
-        Me.Label75.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label75.Location = New System.Drawing.Point(3, 0)
-        Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(75, 24)
-        Me.Label75.TabIndex = 18
-        Me.Label75.Text = "Soldat:"
-        '
-        'B_Handwerk_Panel
-        '
-        Me.B_Handwerk_Panel.Controls.Add(Me.Label76)
-        Me.B_Handwerk_Panel.Controls.Add(Me.PictureBox28)
-        Me.B_Handwerk_Panel.Controls.Add(Me.PictureBox29)
-        Me.B_Handwerk_Panel.Controls.Add(Me.Label77)
-        Me.B_Handwerk_Panel.Location = New System.Drawing.Point(920, 413)
-        Me.B_Handwerk_Panel.Name = "B_Handwerk_Panel"
-        Me.B_Handwerk_Panel.Size = New System.Drawing.Size(154, 43)
-        Me.B_Handwerk_Panel.TabIndex = 19
-        '
-        'Label76
-        '
-        Me.Label76.Location = New System.Drawing.Point(110, 26)
-        Me.Label76.Name = "Label76"
-        Me.Label76.Size = New System.Drawing.Size(530, 107)
-        Me.Label76.TabIndex = 21
-        Me.Label76.Text = resources.GetString("Label76.Text")
-        '
-        'PictureBox28
-        '
-        Me.PictureBox28.Image = Global.Pen_and_Paper.My.Resources.Resources.Berufe_Handweker
-        Me.PictureBox28.Location = New System.Drawing.Point(7, 24)
-        Me.PictureBox28.Name = "PictureBox28"
-        Me.PictureBox28.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox28.TabIndex = 19
-        Me.PictureBox28.TabStop = False
-        '
-        'PictureBox29
-        '
-        Me.PictureBox29.Location = New System.Drawing.Point(7, 133)
-        Me.PictureBox29.Name = "PictureBox29"
-        Me.PictureBox29.Size = New System.Drawing.Size(754, 834)
-        Me.PictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox29.TabIndex = 20
-        Me.PictureBox29.TabStop = False
-        '
-        'Label77
-        '
-        Me.Label77.AutoSize = True
-        Me.Label77.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label77.Location = New System.Drawing.Point(3, 0)
-        Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(127, 24)
-        Me.Label77.TabIndex = 18
-        Me.Label77.Text = "Handwerker:"
-        '
-        'Label78
-        '
-        Me.Label78.AutoSize = True
-        Me.Label78.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label78.Location = New System.Drawing.Point(3, 3)
-        Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(88, 24)
-        Me.Label78.TabIndex = 18
-        Me.Label78.Text = "Rassen:"
-        '
         'Beruf_Button
         '
         Me.Beruf_Button.Location = New System.Drawing.Point(665, 13)
@@ -2125,11 +2121,21 @@ Partial Class CharacterC
         Me.Beruf_Button.Text = "Beruf-Info"
         Me.Beruf_Button.UseVisualStyleBackColor = True
         '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(269, 366)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(61, 24)
+        Me.Button6.TabIndex = 44
+        Me.Button6.Text = "test"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
         'CharacterC
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(2217, 889)
+        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Beruf_Button)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.RI_Button)
@@ -2142,14 +2148,13 @@ Partial Class CharacterC
         Me.Controls.Add(Me.Character_Skills_Button)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label14)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.FamilienStatus_CBox)
         Me.Controls.Add(Me.Label16)
-        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.SozialerStatus_CBox)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Beruf_CBox)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label18)
-        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Statur_CBox)
         Me.Controls.Add(Me.Label7)
@@ -2190,59 +2195,16 @@ Partial Class CharacterC
         CType(Me.TB_Heilkunde, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TB_Handwerk, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
-        Me.RI_Panel.ResumeLayout(False)
-        Me.RI_Panel.PerformLayout()
-        Me.RI_Echsenmensch_Panel.ResumeLayout(False)
-        Me.RI_Echsenmensch_Panel.PerformLayout()
-        Me.RI_Nachtelf_Panel.ResumeLayout(False)
-        Me.RI_Nachtelf_Panel.PerformLayout()
-        Me.RI_Waldelf_Panel.ResumeLayout(False)
-        Me.RI_Waldelf_Panel.PerformLayout()
-        Me.RI_Goblin_Panel.ResumeLayout(False)
-        Me.RI_Goblin_Panel.PerformLayout()
-        Me.RI_Riese_Panel.ResumeLayout(False)
-        Me.RI_Riese_Panel.PerformLayout()
-        Me.RI_Zwerg_Panel.ResumeLayout(False)
-        Me.RI_Zwerg_Panel.PerformLayout()
-        Me.RI_Mensch_Panel.ResumeLayout(False)
-        Me.RI_Mensch_Panel.PerformLayout()
         Me.Beruf_Panel.ResumeLayout(False)
         Me.Beruf_Panel.PerformLayout()
-        Me.B_Händler_Panel.ResumeLayout(False)
-        Me.B_Händler_Panel.PerformLayout()
-        Me.B_Arbeitslos_Panel.ResumeLayout(False)
-        Me.B_Arbeitslos_Panel.PerformLayout()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.B_Fischer_Panel.ResumeLayout(False)
-        Me.B_Fischer_Panel.PerformLayout()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.B_Bauer_Panel.ResumeLayout(False)
-        Me.B_Bauer_Panel.PerformLayout()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.B_Sammler_Panel.ResumeLayout(False)
-        Me.B_Sammler_Panel.PerformLayout()
-        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.B_Priester_Panel.ResumeLayout(False)
-        Me.B_Priester_Panel.PerformLayout()
-        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.B_Wirt_Panel.ResumeLayout(False)
-        Me.B_Wirt_Panel.PerformLayout()
-        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.B_Handwerk_Panel.ResumeLayout(False)
+        Me.B_Handwerk_Panel.PerformLayout()
+        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.B_Soldat_Panel.ResumeLayout(False)
+        Me.B_Soldat_Panel.PerformLayout()
+        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).EndInit()
         Me.B_Magier_Panel.ResumeLayout(False)
         Me.B_Magier_Panel.PerformLayout()
         CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2251,14 +2213,57 @@ Partial Class CharacterC
         Me.B_Koch_Panel.PerformLayout()
         CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.B_Soldat_Panel.ResumeLayout(False)
-        Me.B_Soldat_Panel.PerformLayout()
-        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.B_Handwerk_Panel.ResumeLayout(False)
-        Me.B_Handwerk_Panel.PerformLayout()
-        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.B_Priester_Panel.ResumeLayout(False)
+        Me.B_Priester_Panel.PerformLayout()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.B_Wirt_Panel.ResumeLayout(False)
+        Me.B_Wirt_Panel.PerformLayout()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.B_Händler_Panel.ResumeLayout(False)
+        Me.B_Händler_Panel.PerformLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.B_Sammler_Panel.ResumeLayout(False)
+        Me.B_Sammler_Panel.PerformLayout()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.B_Bauer_Panel.ResumeLayout(False)
+        Me.B_Bauer_Panel.PerformLayout()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.B_Fischer_Panel.ResumeLayout(False)
+        Me.B_Fischer_Panel.PerformLayout()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.B_Arbeitslos_Panel.ResumeLayout(False)
+        Me.B_Arbeitslos_Panel.PerformLayout()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.RI_Panel.ResumeLayout(False)
+        Me.RI_Panel.PerformLayout()
+        Me.RI_Echsenmensch_Panel.ResumeLayout(False)
+        Me.RI_Echsenmensch_Panel.PerformLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.RI_Nachtelf_Panel.ResumeLayout(False)
+        Me.RI_Nachtelf_Panel.PerformLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.RI_Waldelf_Panel.ResumeLayout(False)
+        Me.RI_Waldelf_Panel.PerformLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.RI_Goblin_Panel.ResumeLayout(False)
+        Me.RI_Goblin_Panel.PerformLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.RI_Riese_Panel.ResumeLayout(False)
+        Me.RI_Riese_Panel.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.RI_Zwerg_Panel.ResumeLayout(False)
+        Me.RI_Zwerg_Panel.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.RI_Mensch_Panel.ResumeLayout(False)
+        Me.RI_Mensch_Panel.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -2284,12 +2289,11 @@ Partial Class CharacterC
     Friend WithEvents Statur_CBox As ComboBox
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
-    Friend WithEvents Label11 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents FamilienStatus_CBox As ComboBox
     Friend WithEvents Label16 As Label
-    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents SozialerStatus_CBox As ComboBox
     Friend WithEvents Label17 As Label
     Friend WithEvents Beruf_CBox As ComboBox
     Friend WithEvents Label18 As Label
@@ -2447,4 +2451,5 @@ Partial Class CharacterC
     Friend WithEvents Label77 As Label
     Friend WithEvents Label78 As Label
     Friend WithEvents Beruf_Button As Button
+    Friend WithEvents Button6 As Button
 End Class

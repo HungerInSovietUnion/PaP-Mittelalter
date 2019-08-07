@@ -303,9 +303,59 @@ Namespace My.Resources
         '''<summary>
         '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property TreeHanwerker() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("TreeHanwerker", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property TreeKoch() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("TreeKoch", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property TreeMagier() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("TreeMagier", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property TreePriester() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("TreePriester", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property TreeSammeln() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("TreeSammeln", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property TreeSoldat() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("TreeSoldat", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
